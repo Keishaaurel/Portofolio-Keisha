@@ -1,0 +1,211 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 94%;
+    padding: 20px 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFABAB;
+    box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.3); 
+}
+
+.logo {
+    color: white;
+}
+
+.logo h1 {
+    animation: fadein 1.5s forwards;
+}
+
+.logo span {
+    color: aqua;
+}
+
+.bagian {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.bagian a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.logo h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bagian a {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.home {
+    padding: 50px;
+    height: 80vh;
+    background: rgb(255,171,171);
+    background: linear-gradient(180deg, rgba(255,171,171,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imghome img {
+    border-radius: 150px ;
+    box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.5); 
+}
+
+.about {
+    padding: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.judul {
+    padding: 20px;
+    width: 200px;
+    background-color: #FFABAB;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 3px 5px 3px -1px rgba(0,0,0,0.2);
+}
+
+.judul h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.judul span {
+    color: aqua;
+}
+
+.box-about {
+    padding: 50px 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    box-shadow: 0 .1rem 1.5rem #FFABAB;
+}
+
+.aboutkei {
+    width: 50%;
+    line-height: 50px;
+}
+
+.aboutkei p {
+    line-height: 20px;
+}
+
+.imgabout img {
+    border-radius: 150px;
+    box-shadow: 0px 10px 10px -2px rgba(0,0,0,0.5); 
+}
+
+.skill {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.all-skill {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.skill-box {
+    padding: 10px;
+    height: 350px;
+    width: 250px;
+    border-radius: 30px;
+    background: rgb(255,171,171);
+    background: linear-gradient(180deg, rgba(255,171,171,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 0 .1rem 1.5rem #FFABAB;
+}
+
+.img-skill {
+    border-radius: 20px;
+    font-size: 200px;
+}
+
+.contact {
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.2rem 5rem #FFABAB;
+    border-radius: 30px;
+    padding: 30px 50px 30px 50px;
+    gap: 15px; 
+    align-items: center;
+}
+
+.box-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box-form input {
+    padding: 10px;
+    width: 500px;
+    background: transparent;
+    border-radius: 15px;
+    border: 3px solid #FFABAB;
+}
+
+.box-form textarea {
+    padding: 10px;
+    width: 500px;
+    background: transparent;
+    border-radius: 15px;
+    border: 3px solid #FFABAB;
+}
+
+.box-form h1{
+    font-size: 20px;
+}
+
+.box-submit input {
+    padding: 10px;
+    width: 100px;
+    background: transparent;
+    border-radius: 15px;
+    border: 3px solid #FFABAB;
+    box-shadow: 3px 5px 3px -1px rgba(0,0,0,0.2);
+}
+
+.box-submit {
+    margin-top: 30px;
+}
+
